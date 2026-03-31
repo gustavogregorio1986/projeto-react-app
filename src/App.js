@@ -1,10 +1,12 @@
 
 import './App.css';
 import HelloWorld from './components/HelloWorld';
+import SayMyName from './components/SayMyName';
 
 function App() {
    const name = 'Matheus'  
    const newName = name.toUpperCase()
+   const nome = "Maria"
 
    function sum(a, b){
     return a + b
@@ -21,6 +23,9 @@ function App() {
        <p>Soma: {sum(1,2)}</p>
        <img src={url} alt="Minha Imagem" />
        < HelloWorld />
+       <SayMyName name="Matheus" />
+       <SayMyName name="João" />
+       <SayMyName name={nome} />
     </div>
   );
 }
