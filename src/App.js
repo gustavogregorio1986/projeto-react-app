@@ -5,6 +5,7 @@ import HelloWorld from './components/HelloWorld';
 import List from './components/List';
 import Pessoa from './components/Pessoa';
 import SayMyName from './components/SayMyName';
+import Greeting from './components/Greeting';
 
 function App() {
    const name = 'Matheus'  
@@ -39,6 +40,7 @@ function App() {
                foto="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUeMPKp6hVsnXhgRK-wrUAb-YbRqTt28pbAg&s" 
             />
        <List />
+       <Greeting name="Gustavo" age={39} />
     </div>
   );
 }
