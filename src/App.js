@@ -6,7 +6,6 @@ import List from './components/List';
 import Pessoa from './components/Pessoa';
 import SayMyName from './components/SayMyName';
 import Greeting from './components/Greeting';
-import Evento from './components/Evento';
 import Form from './components/Form';
 
 function App() {
@@ -44,7 +43,6 @@ function App() {
        <List />
        <Greeting name="Gustavo" age={39} />
        <h2>Alterando Eventos</h2>
-       <Evento />
        <Form />
     </div>
   );
