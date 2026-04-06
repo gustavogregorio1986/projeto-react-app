@@ -7,6 +7,7 @@ import Pessoa from './components/Pessoa';
 import SayMyName from './components/SayMyName';
 import Greeting from './components/Greeting';
 import Form from './components/Form';
+import Condicional from './components/Condicional';
 
 function App() {
    const name = 'Matheus'  
@@ -42,8 +43,10 @@ function App() {
             />
        <List />
        <Greeting name="Gustavo" age={39} />
-       <h2>Alterando Eventos</h2>
+       <h1>Alterando Eventos</h1>
        <Form />
+       <h1>Renderização condicional</h1>
+       <Condicional />
     </div>
   );
 }
