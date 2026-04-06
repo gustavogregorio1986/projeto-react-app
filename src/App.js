@@ -8,6 +8,7 @@ import SayMyName from './components/SayMyName';
 import Greeting from './components/Greeting';
 import Form from './components/Form';
 import Condicional from './components/Condicional';
+import OutraLista from './components/OutraLista';
 
 function App() {
    const name = 'Matheus'  
@@ -19,6 +20,8 @@ function App() {
    }
 
    const url = 'https://via.placeholder.com/150'
+
+   const meusItens = ['React', 'Vue', 'Angular']
 
   return (
     <div className="App">
@@ -47,6 +50,9 @@ function App() {
        <Form />
        <h1>Renderização condicional</h1>
        <Condicional />
+       <h1>Renderização de listas</h1>
+       <OutraLista itens={meusItens} />
+       <OutraLista itens={[]} />
     </div>
   );
 }
